@@ -1,0 +1,13 @@
+public class MyStudent {
+    private String name;
+    private String phone;
+    private String address;
+    public static void main(String[] args){
+        MyStudent stdobj = new MyStudent();
+        System.out.println(stdobj.name+"\n"+stdobj.phone+"\n"+stdobj.address+"\n");
+        stdobj.name="Ichhit";
+        stdobj.phone="9844777350";
+        stdobj.address="Lalitpur";
+        System.out.println(stdobj.name+"\n"+stdobj.phone+"\n"+stdobj.address+"\n");
+    }
+}
