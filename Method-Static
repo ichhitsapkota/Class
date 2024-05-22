@@ -1,0 +1,14 @@
+public class TestStatic{
+    static void myStaticMethod(){
+        System.out.println("I am static method");
+    }
+    static void allFreeMethod(){
+        System.out.println("Hi my name is Ichhit");
+    }
+    public static void main(String[] args)
+    {
+      TestStatic obj = new TestStatic();
+      obj.myStaticMethod();
+      obj.allFreeMethod();
+    }
+}
