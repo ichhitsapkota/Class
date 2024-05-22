@@ -7,7 +7,6 @@ public class Student {
         System.out.println(studentObject.name+"\n"+studentObject.phone+"\n"+studentObject.address+"\n");
         System.out.println(studentObject.name+studentObject.phone+studentObject.address+"\n");
         System.out.println(studentObject.name+"\t"+studentObject.phone+"\t"+studentObject.address+"\n");
-
     }
 
 }
