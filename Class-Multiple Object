@@ -1,0 +1,10 @@
+public class MyMultipleObj{
+    int x=100;
+    public static void main(String[] args)
+    {
+        MyMultipleObj myObjectOne = new MyMultipleObj();
+        MyMultipleObj myObjectTwo = new MyMultipleObj();
+        myObjectTwo.x=111;
+        System.out.println(myObjectOne.x+"\n"+myObjectTwo.x);
+    }
+}
