@@ -1,0 +1,11 @@
+public class MyClassOne {
+    String name="John";
+    final String address="Kathmandu";
+    String phone="123";
+    public static void main (String[] args)
+    {
+        MyClassOne obj = new MyClassOne();
+        System.out.println(obj.name+"\t"+obj.address+"\t"+obj.phone+"\n");
+        obj.address="Lalitpur";
+    } 
+}
